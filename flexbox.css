@@ -1,0 +1,133 @@
+body{
+    background: grey;
+    margin: 0em;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  background-color: white;
+}
+/* step0: without flexbox
+.box {
+  height: 10em;
+  width: 10em;
+  float: left;
+}
+
+.one {
+  background-color: blue;
+}
+.two {
+  background-color: red;
+}
+.three {
+  background-color: yellow;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*/
+
+/* step1: inline bloxes 
+.container {
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+.box {
+  height: 10em;
+  width: 10em;
+}
+
+.one {
+  background-color: blue;
+}
+.two {
+  background-color: red;
+}
+.three {
+  background-color: yellow;
+}
+*/
+
+/* step2: grow to fill all space equally
+.container {
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+.box {
+  height: 10em;
+  width: 10em;
+  flex-grow: 1;
+}
+
+.one {
+  background-color: blue;
+}
+.two {
+  background-color: red;
+}
+.three {
+  background-color: yellow;
+}
+*/
+/* step3: grow to fill all space differently 
+.container {
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+.box {
+  height: 10em;
+  width: 10em;
+}
+
+.one {
+  background-color: blue;
+  flex-grow: 10;
+}
+.two {
+  background-color: red;
+  flex-grow: 1;
+}
+.three {
+  background-color: yellow;
+  flex-grow: 1;
+}
+*/
+/* step4: flex wrapper */
+.container {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 100px;
+  width: 300px;
+  min-width: 200px;
+  flex-grow: 1;
+}
+
+.one {
+  background-color: blue;;
+}
+.two {
+  background-color: red;
+}
+.three {
+  background-color: yellow;
+}

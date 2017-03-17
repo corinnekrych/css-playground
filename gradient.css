@@ -1,23 +1,33 @@
 /* Inspired by http://lea.verou.me/css3patterns/ */
-
+div {
+  min-height: 100px;
+  border-style: double;
+  border: 2px solid #555;
+  flex: 1 300px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
 div.horizontal-stripes {
-  background: linear-gradient(#f06 50%, yellow 50%);
+  background: linear-gradient(tan 50%, grey 50%);
   background-size: 100% 20px;
 }
 
 div.horizontal-stripes-unequal {
-  background: linear-gradient(#f06 30%, yellow 0);
+  background: linear-gradient(tan 30%, grey 0);
   background-size: 100% 20px;
 }
 
 div.horizontal-stripes-four-colors {
-  background: linear-gradient(blue 25%, white 25%,white 50%, red 50%, red 75%, green 0);
+  background: linear-gradient(cornflowerblue 0, cornflowerblue 25%, white 25%,white 50%, red 50%, red 75%, darkgreen 75%, darkgreen 100%);
   background-size: 100% 50px;
+  background-repeat: no-repeat;
 }
 
 div.easy-stripes {
-  background-color: grey;
-  background-image: linear-gradient(90deg, tan 50%, transparent 50%);
+  background-color: white;
+  background-image: linear-gradient(90deg, black 50%, transparent 50%);
   background-size: 10px 10px;
 }
 
