@@ -8,7 +8,7 @@ We define a 3 columns per 5 rows gris where the middle column (ie: 2) is used a 
 
 Use `grid-row` and `grid-column` to position your box or use short `grid-area` where:
 ```css
-gris-area: grid-row-atart / grid-column-start / grid-row-end / grid-column-end
+grid-area: grid-row-atart / grid-column-start / grid-row-end / grid-column-end
 ```
 
 See diagram:

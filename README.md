@@ -4,5 +4,6 @@ Plain HTML and CSS samples.
 
 ## Table of content
 
-* [linear and radial grandient](gradient.md)
+* [Linear and radial grandient](gradient.md)
 * [Flexbox in action](flexbox.md)
+* [Grid CSS](grid.md)
