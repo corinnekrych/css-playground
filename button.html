@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button, .button--shadow, .button2 {
+            font-size: 2rem;
+            color: #585858;
+            text-transform: uppercase;
+            text-shadow: .5px 0.5px lightgrey;
+            font-weight: bold;
+            height: 2.5em;
+            background-image: linear-gradient(white, grey);
+            border-radius: 0.5em;
+            border: 1px solid grey;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+        }
+        .button--shadow {
+            position: relative;
+            background-color: lightgrey;
+            background-image: none;
+            width: 8.8em;
+            height: 3em;
+            right: 8.55em;
+            z-index: -1;
+            border-radius: 0.7em;
+            border: 2px solid black;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+        }
+        .icon--star {
+            padding: 0px 4px;
+            color: rgba(0,0,0,0.3);
+        }
+        .button2 {
+            box-shadow:
+                    0 0 0 5px hsl(0, 0%, 80%),
+                    0 0 0 7px hsl(0, 0%, 100%),
+                    0 0 0 9px hsl(0, 0%, 0%);
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="container">
+        <button class="button"><span class="icon--star">&#x2605</span>checkout<span class="icon--star">&#x2605</span></button>
+        <div class="button--shadow"></div>
+        <div><button class="button2"><span class="icon--star">&#x2605</span>checkout<span class="icon--star">&#x2605</span></button></div>
+    </div>
+</main>
+</body>
+</html>
+
